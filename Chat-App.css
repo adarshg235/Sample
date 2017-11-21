@@ -1,0 +1,108 @@
+.bg-white {
+background-color: #fff;
+}
+
+.friend-list {
+list-style: none;
+margin-left: -40px;
+}
+
+.friend-list li {
+border-bottom: 1px solid ##93d4f0;
+}
+
+.friend-list li a img {
+float: left;
+width: 45px;
+height: 45px;
+margin-right: 0px;
+}
+
+.friend-list li a {
+position: relative;
+display: block;
+padding: 10px;
+}
+
+.friend-list li.active a {
+background-color: #f1f5fc;
+}
+
+.friend-list li a .friend-name,.friend-list li a .friend-name:hover
+{
+color: #777;
+}
+.friend-list li a .time {
+position: absolute;
+top: 10px;
+right: 8px;
+}
+
+
+.heading {
+  padding: 10px 16px 10px 15px;
+  margin: 0;
+  height: 60px;
+  width: 104.02%;
+  background-color: #eee;
+  z-index: 1000;
+}
+
+
+.heading-avatar-icon img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.conversation
+{
+  height: auto;
+  background: #F7F7F7;
+}
+
+.message-body {
+  padding: 10px ;
+  width: auto;
+  height: auto;
+
+}
+
+.message-main-receiver {
+  max-width: 60%;
+}
+
+.message-main-sender {
+  padding: 3px 20px ;
+  margin-left: 40% ;
+  max-width: 60%;
+}
+
+.message-text {
+
+  padding: 5px ;
+  word-wrap:break-word;
+  font-weight: 200;
+  font-size: 14px;
+
+}
+.receiver {
+  width: auto ;
+  padding: 4px 8px 10px 7px ;
+  border-radius: 10px 10px 10px 0;
+  background: #e3e5e6;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.sender {
+  float: right;
+  width: auto ;
+  background: #dcf8c6;
+  border-radius: 10px 10px 0 10px;
+  padding: 4px 10px 7px ;
+  font-size: 12px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  display: inline-block;
+  word-wrap: break-word;
+}
